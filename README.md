@@ -27,6 +27,6 @@ rostopic echo -n1 /camera/rgb/Image_raw/data
 # 4. Run Your Python Script To Check If It Works
 
 ```
-rosrun ROSbot_Line_Following line_follower_basics.py
+rosrun my_following_line_package line_follower_basics.py
 ```
 
