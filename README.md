@@ -18,3 +18,9 @@ rostopic echo -n1 /camera/rgb/Image_raw/encoding
 rostopic echo -n1 /camera/rgb/Image_raw/data
 ```
 
+# 3. Run Your Python Script To Check If It Works
+
+```
+rosrun ROSbot_Line_Following line_follower_basics.py
+```
+
